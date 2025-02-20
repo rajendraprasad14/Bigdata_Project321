@@ -1,5 +1,12 @@
 object Rajendra {
   def main(args: Array[String]): Unit = {
-    print("hello world, this is second program")
+    var num=1
+    for (i <- 0 to 5 by 1) {
+      for (j <- 1 to i by 1) {
+        print(num )
+        num=num+1
+      }
+      println()
+    }
   }
 }
